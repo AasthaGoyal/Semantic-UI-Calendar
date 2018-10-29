@@ -63,9 +63,15 @@
 }
 .ui.calendar .ui.table tr th,
 .ui.calendar .ui.table tr td {
-
+ padding:0.5em;
   white-space: nowrap;
 }
+
+.input[type="text"]
+{
+  padding: 0;
+}
+
 .ui.calendar .ui.table tr th {
   border-left: none;
 }
